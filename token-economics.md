@@ -21,7 +21,7 @@ The fundraising goal of 200 ETH will be used to pair 100% of raised ETH with $LI
 ## Liquidity Strategy
 
 * **Allocation**: 100% of the raised ETH (200 ETH) and an equivalent value of $LIQ tokens will be paired and locked in a Uniswap V4 liquidity pool.
-* **Lock-up Period**: 6 months (from May 20, 2025, to November 20, 2025), preventing dumps and ensuring market stability.
+* **Lock-up Period**: 6 months, preventing dumps and ensuring market stability.
 * **LP Fee Sharing**: During the lock-up, investors and creators earn liquidity pool fees (1% trading fee, as per the referral program, see Referrals).
 * **Post-Unlock**: After 6 months, liquidity is split and returned to contributors (ETH + $LIQ tokens), reducing exit risk and aligning incentives.
 
