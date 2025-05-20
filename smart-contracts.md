@@ -36,13 +36,13 @@ Key functionalities include:
 
 ## Community Scripting Guide
 
-To interact with LiqCoin contracts, developers can use JavaScript with ethers.js. Below is an example script demonstrating how to call the main functions. Ensure you have a provider (e.g., Infura, Alchemy) and a wallet with ETH on the Sepolia testnet.
+To interact with LiqCoin contracts, developers can use JavaScript with ethers.js. Below is an example script demonstrating how to call the main functions. Ensure you have a provider (e.g., Infura, Alchemy) and a wallet with ETH on the Base mainnet.
 
 ```javascript
 const { ethers } = require("ethers");
 
 // Configuration
-const provider = new ethers.providers.JsonRpcProvider("https://sepolia.infura.io/v3/YOUR_INFURA_KEY");
+const provider = new ethers.providers.JsonRpcProvider("https://basemain.infura.io/v3/YOUR_INFURA_KEY");
 const wallet = new ethers.Wallet("YOUR_PRIVATE_KEY", provider);
 const lpLaunchAddress = "0xDb859ee3713a8619CDd58Fdf33B23A99F2c49F5A";
 const lpLaunchABI = [ /* ABI from contract compilation, or use ethers.getContractAt */ ];
@@ -144,7 +144,7 @@ For the complete ABI definitions of these contracts, visit our GitHub ABI Reposi
 * Ensure the wallet has sufficient ETH for gas and transaction fees.
 
 **GraphQL** : \
-Use the GraphQL endpoint (`https://api.studio.thegraph.com/query/55427/liqcoin-sepolia/version/latest`) to query launch data, such as active launches, funding progress, and LP details.\
+Use the GraphQL endpoint ([`https://api.studio.thegraph.com/query/55427/liqcoin-sepolia/version/latest`](https://api.studio.thegraph.com/query/55427/liqcoin-base-main/version/latest)) to query launch data, such as active launches, funding progress, and LP details.\
 
 
 ```javascript
