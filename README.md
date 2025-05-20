@@ -1,27 +1,7 @@
 ---
-icon: list-check
-cover: .gitbook/assets/1500x500.png
-coverY: 0
+icon: book
 ---
 
-# Summary
+# Introduction
 
-* [Introduction](broken-reference)
-* [Ideology and Vision](broken-reference)
-  * Mission
-  * Why Choose LiqCoin?
-  * How It Works
-  * Market Competition and Advantages
-* [Technical Implementation](broken-reference)
-  * Core Problem Addressed
-  * Launchpad Liquidity Mechanism
-  * Profit Model
-* [Smart Contracts](broken-reference)
-  * Contract Addresses
-  * Contract Overview
-  * Community Scripting Guide
-* [Operational Roadmap](broken-reference)
-  * Product Milestones
-  * Operational Strategy
-* [Community and Media](broken-reference)
-* [Legal Risk Disclaimer](broken-reference)
+LiqCoin is a revolutionary platform built on Base that simplifies the creation, funding, and launch of  coins with built-in liquidity support. By leveraging Uniswap v4 liquidity pools and a transparent fundraising mechanism, LiqCoin empowers builders, investors, and traders to participate in a fair and sustainable cryptocurrency ecosystem.
